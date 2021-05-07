@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+body {
+    font-weight: 100;
+    font-family: "tahoma";
+}
+
+.example {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 881px;
+    width: 608px;
+    background: #ffffff;
+    border: 14px solid #f4f4f4;
+    box-sizing: border-box;
+}
+
+.A {
+    width: 800px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fd4314;
+    padding-left: 85px;
+    padding-top: 19px;
+}
+
+.A span {
+    padding-right: 106.5px;
+}
+
+.B {
+    width: 800px;
+    font-size: 23px;
+    color: black;
+    padding-left: 59px;
+    padding-top: 1px;
+}
+
+.B span {
+    letter-spacing: 1px;
+    padding-right: 53px;
+}
+
+.C {
+    width: 580px;
+    height: 42px;
+    background: #ffe5de;
+    font-size: 23px;
+    color: #fd4314;
+    margin-top: 28px;
+    padding-top: 11px;
+    letter-spacing: 1px;
+}
+
+.C span {
+    padding-left: 164px;
+}
+
+.C #box {
+    position: absolute;
+    border-top: 10px solid #ffe5de;
+    border-right: 10px solid #ffe5de;
+    border-bottom: 10px solid #ffe5de;
+    border-left: 14px solid #fd4314;
+    width: 0;
+    height: 0;
+    top: 131px;
+    left: 462px;
+}
+
+.D {
+    width: 800px;
+    font-size: 24px;
+    color: black;
+    padding-left: 45px;
+    padding-top: 32px;
+}
+
+.D #s {
+    font-weight: bold;
+}
+
+.D span {
+    padding-right: 52.9px;
+}
+
+.line {
+    width: 64px;
+    height: 4px;
+    background: #fd4314;
+    margin-left: 254px;
+    margin-top: 5px;
+}
+
+.E {
+    width: 800px;
+    font-size: 23px;
+    color: #fd4314;
+    padding-left: 24px;
+    padding-top: 31px;
+    letter-spacing: 0.8px;
+}
+
+.E #first {
+    padding-right: 56px;
+}
+
+.E second {
+    display: block;
+    padding-top: 20px;
+    color: black;
+}
+
+.E #second {
+    padding-right: 85.2px;
+}
+
+.F {
+    padding-top: 35px;
+    width: 580px;
+}
+
+.F img {
+    padding-top: 23px;
+}
+
+.F #first {
+    padding-top: 1px;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 152px;
+    background: white;
+    border: 2px solid #fd4314;
+    border-bottom: 0px;
+    z-index: 10;
+}
+
+.F #first div {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-top: 13px;
+    color: #fd4314;
+}
+
+.F #second {
+    left: 142px;
+    position: absolute;
+    text-align: center;
+    width: 144px;
+    height: 151px;
+    background: white;
+    border: 2px solid #f4f4f4;
+    border-bottom: 0;
+}
+
+.F #second div {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-top: 14px;
+}
+
+.F #third {
+    left: 288px;
+    position: absolute;
+    text-align: center;
+    width: 148px;
+    height: 151px;
+    background: white;
+    border: 2px solid #f4f4f4;
+    border-bottom: 0;
+}
+
+.F #third div {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-top: 14px;
+}
+
+.F #fouth {
+    left: 434px;
+    position: absolute;
+    text-align: center;
+    width: 144px;
+    height: 151px;
+    background: white;
+    border: 2px solid #f4f4f4;
+    border-bottom: 0;
+}
+
+.F #fouth div {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-top: 14px;
+}
+
+.G {
+    z-index: 5;
+    position: absolute;
+    top: 534px;
+    width: 580px;
+    height: 317px;
+    box-sizing: border-box;
+    background: white;
+    border: 2px solid #fd4314;
+    padding-left: 30px;
+    padding-top: 19px;
+}
+
+.G #first span {
+    font-size: 23px;
+    color: #686868;
+    padding-left: 20px;
+    padding-right: 26px;
+}
+
+.G #first #s {
+    color: #fd4314;
+}
+
+.G #second {
+    width: 379px;
+    padding-top: 21px;
+}
+
+.G #second #d1 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-top: 9px;
+    color: #cccccc;
+    border: 2px solid #cccccc;
+    height: 39px;
+}
+
+.G #second #d2 {
+    font-size: 23px;
+    padding-left: 9px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    border: 2px solid #cccccc;
+    border-top: 0;
+    height: 38px;
+}
+
+.G #third {
+    padding-top: 11px;
+    padding-left: 8px;
+}
+
+.G #third span {
+    font-size: 23px;
+    color: #cccccc
+}
+
+.G #third #s {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fd4314;
+}
+
+.G #fouth {
+    padding-top: 15px;
+}
+
+.G #fouth div {
+    background: #fd4314;
+    width: 116px;
+    height: 44px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    color: white;
+}
+
+.main img#x {
+    position: absolute;
+    z-index: 10;
+    left: 548px;
+    top: 552px;
+}

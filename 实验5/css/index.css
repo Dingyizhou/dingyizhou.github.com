@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    height: 1204px;
+    width: 1252px;
+    margin: auto;
+}
+
+.example {
+    position: absolute;
+    z-index: -100;
+}
+
+.m-intro {
+    width: 100%;
+    text-align: center;
+}
+
+.m-intro img {
+    margin: 49px 0 29px 126px;
+    float: left;
+}
+
+.m-intro .text {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.m-intro .text .title {
+    display: block;
+    width: 30%;
+    margin-top: 65px;
+    margin-left: 50px;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+.m-intro .text .line {
+    width: 50px;
+    height: 4px;
+    margin-top: 18px;
+    margin-left: 50px;
+    background-color: #0068b1;
+}
+
+.m-intro .text .main {
+    display: block;
+    width: 72%;
+    word-break: break-all;
+    margin-top: 32px;
+    margin-left: 51px;
+    font-size: 20px;
+    letter-spacing: 3.7px;
+    line-height: 32px;
+    color: #313131;
+}
+
+.m-intro .text .button {
+    display: block;
+    width: 179px;
+    height: 31px;
+    margin-top: 28px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 11px 0 0 22px;
+    font-size: 16.5px;
+    color: #fff;
+    letter-spacing: 3.7px;
+    background-color: #0068b1;
+}
+
+.m-intro .text .button .arrow {
+    padding-left: 70px;
+}
+
+.clear {
+    clear: both;
+}
+
+.m-blog {
+    width: 80%;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 126px;
+}
+
+.m-blog .head {
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.m-blog .head .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0068b1;
+    float: left;
+}
+
+.m-blog .head .line {
+    width: 3.5px;
+    height: 18px;
+    margin-top: 11px;
+    margin-left: 12px;
+    background: #0068b1;
+    float: left;
+}
+
+.m-blog .head .words {
+    margin-top: 7px;
+    margin-left: 19px;
+    font-size: 20px;
+    letter-spacing: 6px;
+    float: left;
+}
+
+.m-blog .head .button {
+    margin-top: 3px;
+    margin-right: 2px;
+    margin-bottom: 30px;
+    width: 13.7%;
+    height: 27px;
+    border-radius: 5px;
+    background-color: #0068b1;
+    float: right;
+    color: #eee;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-top: 7px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.m-blog .first-list {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.m-blog .first-list .time {
+    width: 85px;
+    height: 20px;
+    margin-top: 44.7px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #282828;
+    float: left;
+}
+
+.m-blog .first-list .type {
+    width: 107px;
+    height: 23px;
+    margin-top: 39px;
+    margin-left: 26px;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-left: 2px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+    background: #009ee2;
+    color: #fff;
+    float: left;
+}
+
+.m-blog .first-list .text {
+    width: 45%;
+    margin-top: 41px;
+    margin-left: 22px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    float: left;
+}
+
+.m-blog .list .time {
+    width: 85px;
+    height: 20px;
+    margin-top: 36px;
+    margin-bottom: 31px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #282828;
+    float: left;
+}
+
+.m-blog .list .type {
+    width: 107px;
+    height: 23px;
+    margin-top: 30px;
+    margin-left: 26px;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-left: 2px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+    background: #5aad73;
+    color: #fff;
+    float: left;
+}
+
+
+.m-blog .list .text {
+    width: 45%;
+    margin-top: 32px;
+    margin-left: 22px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    float: left;
+}
+
+.m-blog .list {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.m-contact {
+    margin-top: 8px;
+    padding-top: 12px;
+    width: 100%;
+    height: 40%;
+    background: rgba(216, 216, 216, 0.2);
+}
+
+.m-contact .phone {
+    width: 50%;
+    height: 100%;
+    padding-left: 52px;
+    box-sizing: border-box;
+    text-align: left;
+    float: left;
+}
+
+.m-contact .phone .title .line {
+    width: 6px;
+    height: 32px;
+    margin-top: 4px;
+    background: #0068b1;
+    float: left;
+}
+
+.m-contact .phone .title .words {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin-left: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #004897;
+    letter-spacing: 5px;
+}
+
+.m-contact .phone .box {
+    width: 535px;
+    height: 315px;
+    margin-top: 55px;
+    border: 3px solid #e2e2e2;
+    text-align: center;
+    background-color: #fff;
+}
+
+.m-contact .phone .box .title {
+    display: block;
+    padding-top: 35px;
+    padding-left: 4px;
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+
+.m-contact .phone .box .tel {
+    display: block;
+    padding-top: 6px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #0068b1;
+    letter-spacing: -0.1px;
+}
+
+.m-contact .phone .box .info {
+    word-break: break-all;
+    display: block;
+    width: 55%;
+    margin-top: 17px;
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 28px;
+}
+
+.m-contact .phone .box .line {
+    width: 80%;
+    height: 1px;
+    margin-top: 19px;
+    margin-left: 53px;
+    background: #eee;
+}
+
+.m-contact .email {
+    width: 50%;
+    height: 100%;
+    padding-left: 36px;
+    box-sizing: border-box;
+    text-align: left;
+    float: left;
+}
+
+.m-contact .email .title .line {
+    width: 6px;
+    height: 32px;
+    margin-top: 4px;
+    background: #0068b1;
+    float: left;
+}
+
+.m-contact .phone .box .time {
+    display: block;
+    margin-top: 22px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #0068b1;
+}
+
+.m-contact .email .title .words {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin-left: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #004897;
+    letter-spacing: 5px;
+}
+
+.m-contact .email .box {
+    width: 533px;
+    height: 314px;
+    margin-top: 55px;
+    border: 3px solid #e2e2e2;
+    text-align: center;
+    background-color: #fff;
+}
+
+.m-contact .email .box .button {
+    width: 430px;
+    height: 71px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 1px #02395f;
+    text-align: left;
+    background-color: #0068b1;
+}
+
+.m-contact .email .button img {
+    margin-top: 27px;
+    margin-left: 65px;
+    float: left;
+}
+
+.m-contact .email .button span {
+    margin-top: 22px;
+    margin-left: 12px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 6.5px;
+    word-spacing: 15px;
+    float: left;
+}
+
+.m-contact .email .box p {
+    text-align: center;
+    word-break: break-all;
+    display: block;
+    width: 55%;
+    margin-top: 20px;
+    margin-left: 118px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 28px;
+}
